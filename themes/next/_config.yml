@@ -532,8 +532,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: 5fcTQB8dNAib6sJpRtQzmxNJ-gzGzoHsz
+  app_key: SHJr2lzXkUBBFtkLfMiRkysX
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -695,7 +695,7 @@ pace: true
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false

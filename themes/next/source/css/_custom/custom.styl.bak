@@ -1,11 +1,17 @@
 // Custom styles.
-body{   
-        background:url(/images/background.jpg);
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-attachment:fixed;
-        background-position:center;
-     }
+@media screen and (min-width:1200px) {
+
+    body {
+    background-image:url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%; 
+    }
+
+    #footer a {
+        color:#eee;
+    }
+}
 
 .header-inner{
 	opacity: 0.8;
