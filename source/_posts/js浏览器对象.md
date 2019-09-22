@@ -86,7 +86,7 @@ tags:
 一些属性：
 
 - screen.availWidth - 可用的屏幕宽度
-- screen.availHeight - 可用的屏幕高度
+- screen.availHeight - 可用的屏幕高度。
 
 
 
