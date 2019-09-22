@@ -4,10 +4,11 @@ branches:
   only:
   - master
 environment:
+  nodejs_version: '10'
   access_token:
     secure: 66Y09Z1cwBXtSyGJ7XtfRsJqjklx0P1qvgEiJS2WJmIff5Qd2W9fzc5/kWZarsbr
 install:
-  - ps: Install-Product node 6.0 #原始环境的node 是4.x的版本，最好升级到最新的版本，防止Hexo的插件无法安装
+  - ps: Install-Product node $env:nodejs_version #原始环境的node 是4.x的版本，最好升级到最新的版本，防止Hexo的插件无法安装
   - node --version
   - npm --version
   - npm install
